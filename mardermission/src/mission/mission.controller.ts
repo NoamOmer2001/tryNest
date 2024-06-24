@@ -1,10 +1,10 @@
 import { Controller, Param, Get } from '@nestjs/common';
-import { UsersService } from '../users.service';
-import { User } from '../schemas/user.schema';
+import { MissionService } from './mission.service';
+import { User } from './mission.schema';
 
 @Controller('users')
 export class UsersController {
-  constructor(private readonly userService: UsersService) {}
+  constructor(private readonly userService: MissionService) {}
 
   @Get(':userId')
   async getUser(@Param('userId') userId: string): Promise<User> {
