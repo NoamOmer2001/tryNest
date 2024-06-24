@@ -6,7 +6,7 @@ export type UserDocument = User & Document;
 @Schema()
 export class User {
   @Prop()
-  user_is: string;
+  user_id: string;
 
   @Prop()
   telephone_number: number;

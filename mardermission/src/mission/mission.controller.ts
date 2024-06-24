@@ -3,7 +3,7 @@ import { MissionService } from './mission.service';
 import { User } from './mission.schema';
 
 @Controller('users')
-export class UsersController {
+export class MissionController {
   constructor(private readonly userService: MissionService) {}
 
   @Get(':userId')

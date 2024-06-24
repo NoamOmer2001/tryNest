@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@nestjs/mongoose": "^10.0.6"
+    "@nestjs/axios": "^3.0.2",
+    "@nestjs/mongoose": "^10.0.6",
+    "axios": "^1.7.2"
   }
 }

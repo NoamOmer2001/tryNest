@@ -5,7 +5,7 @@ import { FilterQuery, Model } from 'mongoose';
 import { User, UserDocument } from './mission.schema';
 
 @Injectable()
-export class UsersRepository {
+export class MissionRepository {
   constructor(@InjectModel(User.name) private userModel: Model<UserDocument>) {}
 
   async findOne(userFilterQuery: FilterQuery<User>): Promise<User> {

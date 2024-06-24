@@ -8,4 +8,4 @@ import { MissionService } from './mission.service';
   controllers: [MissionController],
   providers: [MissionService],
 })
-export class AppModule {}
+export class MissionModule {}
